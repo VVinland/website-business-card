@@ -285,16 +285,19 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 5px 10px -1px var(--theme-color);
 }
 .project__description {
-  font-size: 20px;
+  font-size: 30px;
 }
 .project__gitHub {
   display: flex;
   align-items: center;
   gap: 10px;
   box-shadow: 0px 0px 1px 1px var(--theme-color);
-  padding: 0px 5px;
+  padding: 5px 5px;
   transition: all 0.1s linear 0s;
   border-radius: 4px;
+}
+.project__gitHub p {
+  font-size: 32px;
 }
 .project__gitHub:active {
   transform: translateY(1px);

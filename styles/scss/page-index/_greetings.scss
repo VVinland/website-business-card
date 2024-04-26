@@ -23,9 +23,8 @@
         & p,
         span {
             text-align: center;
-            font-size: 40px;
+            font-size: 80px;
             color: white;
-            transition: all 0.1s linear 0s;
         }
 
         & span {
@@ -34,11 +33,9 @@
     }
 
     &__text {
-        font-size: 18px;
+        font-size: 40px;
         color: white;
         text-align: center;
-        transition: all 0.1s linear 0s;
-
     }
 
     &__resume {
@@ -46,8 +43,14 @@
         border-radius: 8px;
         color: white;
         padding: 10px 20px;
-        transition: all 0.2s linear 0s;
-        font-size: 25px;
+        font-size: 30px;
+    }
+
+    &__title p,
+    span,
+    &__text,
+    &__resume {
+        transition: all 0.1s linear 0s;
     }
 
     &__resume:hover {
@@ -58,136 +61,15 @@
         transform: translateY(2px);
     }
 
-    @media (min-height:1024px) {
+    @media (max-width:500px) {
 
         &__title p,
         span {
-            text-align: center;
-            font-size: 80px;
-        }
-
-
-        &__text {
-            font-size: 36px;
-            text-align: center;
-        }
-
-        &__resume {
-            background-color: rgb(119, 52, 228);
-            border-radius: 8px;
-            color: white;
-            padding: 10px 20px;
-            transition: all 0.2s linear 0s;
-            font-size: 32px;
-        }
-    }
-
-    @media (max-height:1023px) {
-
-        &__title p,
-        span {
-            text-align: center;
-            font-size: 80px;
-        }
-
-
-        &__text {
-            font-size: 36px;
-            text-align: center;
-        }
-
-        &__resume {
-            background-color: rgb(119, 52, 228);
-            border-radius: 8px;
-            color: white;
-            padding: 10px 20px;
-            transition: all 0.2s linear 0s;
-            font-size: 32px;
-        }
-    }
-
-    @media (min-width:1024px) {
-
-        &__title p,
-        span {
-            text-align: center;
-            font-size: 100px;
-        }
-
-
-        &__text {
-            font-size: 50px;
-            text-align: center;
-        }
-
-        &__resume {
-            background-color: rgb(119, 52, 228);
-            border-radius: 8px;
-            color: white;
-            padding: 10px 20px;
-            transition: all 0.2s linear 0s;
-            font-size: 40px;
-        }
-    }
-
-    @media (max-width:786px) {
-
-        &__title p,
-        span {
-            text-align: center;
             font-size: 60px;
         }
 
-
         &__text {
-            font-size: 24px;
-            text-align: center;
-        }
-
-        &__resume {
-            background-color: rgb(119, 52, 228);
-            border-radius: 8px;
-            color: white;
-            padding: 10px 20px;
-            transition: all 0.2s linear 0s;
-            font-size: 28px;
-        }
-    }
-
-    @media (max-width:537px) {
-
-        &__title p,
-        span {
-            text-align: center;
-            font-size: 40px;
-        }
-
-
-        &__text {
-            font-size: 24px;
-            text-align: center;
-        }
-
-        &__resume {
-            background-color: rgb(119, 52, 228);
-            border-radius: 8px;
-            color: white;
-            padding: 10px 20px;
-            transition: all 0.2s linear 0s;
-            font-size: 25px;
-        }
-    }
-
-    @media (max-width:370px) {
-
-        &__title p,
-        span {
-            font-size: 32px;
-        }
-
-
-        &__text {
-            font-size: 18px;
+            font-size: 30px;
         }
 
         &__resume {
