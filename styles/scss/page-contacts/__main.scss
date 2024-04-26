@@ -1,0 +1,58 @@
+.main {
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 60px;
+        color: rgb(132, 0, 255);
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__sub-title {
+        font-size: 40px;
+    }
+
+    &__item p,
+    a {
+        font-size: 25px;
+    }
+
+    &__item a{
+        color: rgb(8, 122, 253);
+    }
+
+    @media(min-height:1024px){
+        &__title {
+            font-size: 100px;
+        }
+
+        &__sub-title {
+            font-size: 60px;
+        }
+    
+        &__item p,
+        a {
+            font-size: 40px;
+        }
+    }
+}

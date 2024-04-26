@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../styles/css/index-style.css">
+    <title>Main</title>
+</head>
+
+<body>
+    <div class="body__wrapper">
+
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="header__logo">
+                        <img src="./../img/icons/logo.jpg" class="header__img" alt="logo">
+                    </div>
+
+                    <nav class="nav">
+                        <ul class="nav__menu">
+                            <li class="nav__item">
+                                <a href="#" class="nav__link nav__link_active">Main</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="./projects.html" class="nav__link">Projects</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="./contacts.html" class="nav__link">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__darkmode">
+                        <img src="./../img/icons/sun-svgrepo-com.svg" alt="light" class="header__img header__light">
+                        <img src="./../img/icons/moon-svgrepo-com.svg" alt="dark" class="header__img header__dark">
+                    </div>
+
+                    <div class="header__menu-burger">
+                        <span class="header__burger-button"></span>
+                        <span class="header__burger-button"></span>
+                        <span class="header__burger-button"></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="greetings">
+            <div class="container">
+                <div class="greetings__wrapper">
+                    <div class="greetings__title">
+                        <p>Hello, my name is <span>Daniil</span></p>
+                        <p>a frontend developer</p>
+                    </div>
+                    <div class="greetings__text">
+                        with passion for learning and creating.
+                    </div>
+                    <a class="greetings__resume" href="https://drive.google.com/uc?export=download&id=1D04iLAQ6urYctae06L-HwpGmouiIy20C">
+                        Download resume  
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <main class="main">
+            <div class="container">
+                <div class="main__wrapper">
+                    <ul class="main__list">
+                        <li class="main__item">
+                            <h1 class="main__title">Frontend</h1>
+                            <p class="main__text">
+                                HTML, CSS, SCSS, JavaScript,
+                                <br>
+                                TypeScript, ReactJs, MobX, NPM
+                            </p>
+                        </li>
+                        <li class="main__item">
+                            <h1 class="main__title">Backend</h1>
+                            <p class="main__text">
+                                NodeJS, Express, PostgreSQL
+                            </p>
+                        </li>
+                        <li class="main__item">
+                            <h1 class="main__title">Unit testing</h1>
+                            <p class="main__text">
+                                Mocha, chai
+                            </p>
+                        </li>
+                        <li class="main__item">
+                            <h1 class="main__title">Additionally</h1>
+                            <p class="main__text">
+                                Docker, Webpack, Git, GitHub
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <ul class="social">
+                        <li class="social__item">
+                            <a href="https://vk.com/id777daniil777" class="social__link" target="_blank">
+                                <img src="./../img/icons/vk-logo.svg" class="social__img" alt="VK">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://web.telegram.org/a/#528889907" class="social__link" target="_blank">
+                                <img src="./../img/icons/telegam-logo.svg" class="social__img" alt="Telegram">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://github.com/VVinland?tab=repositories" class="social__link" target="_blank">
+                                <img src="./../img/icons/github-logo.svg"  class="social__img" alt="GitHub">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        <p>© 2024 Гусев Даниил</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module" src="./../scripts/common-scripts/mode-dark-light/index.mjs"></script>
+    <script type="module" src="./../scripts/common-scripts/burger.mjs"></script>
+</body>
+
+</html>
