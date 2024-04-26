@@ -8,7 +8,6 @@ const light = document.querySelector(".header__light");
 function initThemeDarkLight(){
     const themeDark = localStorage.getItem("themeDark");
     if (themeDark || detectDarkMode() === "dark") {
-        console.log(detectDarkMode());
         setThemeDark();
     }
 }
