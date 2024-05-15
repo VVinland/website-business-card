@@ -285,6 +285,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 357px;
   border-radius: 8px;
   box-shadow: 0px 5px 10px -1px var(--theme-color);
+  max-width: 100%;
 }
 .project__description {
   font-size: 30px;
