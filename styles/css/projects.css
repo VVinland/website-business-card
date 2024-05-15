@@ -281,28 +281,34 @@ h1, h2, h3, h4, h5, h6 {
   gap: 20px;
 }
 .projects__link {
+  position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
   flex-wrap: wrap;
+  width: 370px;
+  height: 420px;
 }
 .projects__item {
   display: flex;
   box-shadow: 0px 1px 10px 0px var(--theme-color);
   border-radius: 8px;
-  width: 370px;
 }
 .projects__img {
-  height: auto;
-  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 85%;
+  width: 100%;
   border-radius: 8px;
   background-color: gray;
 }
 .projects__title {
+  position: absolute;
+  bottom: 0;
   font-size: 32px;
   border-radius: 8px;
   max-width: 100%;
   padding: 0px 0px 10px 0px;
-  height: auto;
 }
 @media (max-width: 400px) {
   .projects__item {
