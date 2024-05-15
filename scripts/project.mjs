@@ -10,7 +10,6 @@ function initProject() {
 
     const project = getProject(projectId);
     changePage(project);
-    localStorage.removeItem("projectId");
 }
 
 initProject();
