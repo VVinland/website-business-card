@@ -29,10 +29,10 @@ const projects = [
     },
     {
         id: 4,
-        title: "Create room",
-        img: "./../img/create-room.png",
-        description: "Skills: JavaScript, NodeJS, Express, Socket.IO, Mocha",
-        gitHub: "https://github.com/VVinland/CreateRoom",
+        title: "TodoList",
+        img: "./../img/todo-list.png",
+        description: "Skills: ReactTS, Webpack, MobX, NodeTS, Express, JWT, PostgreSQL, Axios",
+        gitHub: "https://github.com/VVinland/Kosmos",
     },
     {
         id: 5,
